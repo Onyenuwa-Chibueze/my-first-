@@ -1,0 +1,15 @@
+/*Default:Light mode*/
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+    color: black;
+    transition: 0.3s ease;
+}
+
+/*Default:Dark mode*/
+.dark-mode{
+    background: black;
+    color: white;
+}
