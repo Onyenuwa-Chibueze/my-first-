@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Colorful Greeting Cards 🎨</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <style>
+      body {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background-color: cyan;
+  padding: 20px;
+
+}
+
+#cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.card {
+  width: 120px;
+  height: 100px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+    </style>
+  </head>
+  <body>
+    <h1>🎉 Greeting Card Generator</h1>
+    <input id="cardName" type="text" placeholder="Enter name for card">
+    <input id="cardNumber" type="number" placeholder="Enter number of cards" />
+    <button id="generateBtn">Generate Cards</button>
+    <button id="clearBtn">Clear Card</button>
+
+    <div id="cardContainer">
+
+    </div>
+
+    <script src="./new.js"></script>
+  </body>
+</html>
