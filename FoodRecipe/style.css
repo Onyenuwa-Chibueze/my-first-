@@ -239,8 +239,8 @@ opacity: 0.8;
   .meal-item{
     margin: 0;
   }
-  .meal.meal-details{
-  width: 400px;
+  .meal-details{
+  width: 600px;
 }
 
 }
